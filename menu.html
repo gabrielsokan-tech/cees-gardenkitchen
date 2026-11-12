@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Menu and services at Cees Garden Kitchen.">
+  <title>Menu | Cees Garden Kitchen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="index.html" class="logo">Cees Garden <span>Kitchen</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="mainNav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-banner"><div class="container"><h1>Our Menu &amp; Services</h1><p>Dishes and services made with love.</p></div></section>
+
+    <section class="container">
+      <div class="filters" role="group" aria-label="Filter menu">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="main">Main dishes</button>
+        <button class="filter-btn" data-filter="grill">Grills</button>
+        <button class="filter-btn" data-filter="service">Services</button>
+      </div>
+      <div class="card-grid" id="menuGrid">
+        <article class="card menu-item" data-category="main"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jollof_rice.jpg?width=800" alt="Jollof rice" loading="lazy"><div class="card-body"><h3>Party Jollof Rice</h3><p>Smoky tomato rice served with fried plantain and grilled chicken.</p><p class="price">&#8358;4,500</p></div></article>
+        <article class="card menu-item" data-category="grill"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Suya_Seller.jpg?width=800" alt="Suya skewers" loading="lazy"><div class="card-body"><h3>Beef Suya</h3><p>Thinly sliced beef grilled over charcoal and rolled in spicy yaji.</p><p class="price">&#8358;3,000</p></div></article>
+        <article class="card menu-item" data-category="main"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Egusi_and_bitter_leaf_soup..jpg?width=800" alt="Egusi soup" loading="lazy"><div class="card-body"><h3>Egusi Soup &amp; Pounded Yam</h3><p>Melon-seed soup cooked with spinach, stockfish and assorted meat.</p><p class="price">&#8358;5,500</p></div></article>
+        <article class="card menu-item" data-category="service"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Food_in_Abuja_02.jpg?width=800" alt="Nigerian food in Abuja" loading="lazy"><div class="card-body"><h3>Event Catering</h3><p>Full catering for weddings, birthdays, office lunches and parties.</p><p class="price">From &#8358;150,000</p></div></article>
+        <article class="card menu-item" data-category="grill"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Suya_Seller.jpg?width=800" alt="Suya skewers" loading="lazy"><div class="card-body"><h3>Chicken Suya</h3><p>Juicy chicken skewers with onions, tomatoes and extra pepper.</p><p class="price">&#8358;3,500</p></div></article>
+        <article class="card menu-item" data-category="service"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Food_in_Abuja_02.jpg?width=800" alt="Food delivery" loading="lazy"><div class="card-body"><h3>Home Delivery</h3><p>Hot meals brought to your door anywhere in Abuja.</p><p class="price">From &#8358;1,000</p></div></article>
+      </div>
+      
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <div>
+        <h3>Cees Garden Kitchen</h3>
+        <p>Authentic Nigerian food in Abuja.</p>
+      </div>
+      <div>
+        <h3>Visit us</h3>
+        <address>
+          No. 20 Cees Garden Estate,<br>Abuja, Nigeria<br>
+          <a href="tel:+2348107829467">+234 810 782 9467</a><br>
+          <a href="mailto:gabrielsokan@gmail.com">gabrielsokan@gmail.com</a>
+        </address>
+      </div>
+      <div>
+        <h3>Opening hours</h3>
+        <ul>
+          <li>Mon&ndash;Fri: 10am &ndash; 10pm</li>
+          <li>Sat&ndash;Sun: 12pm &ndash; 11pm</li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Cees Garden Kitchen &mdash; a student project by Adesokan Opeoluwa Gabriel. Photos from <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a>.</p>
+  </footer>
+  <button id="backToTop" class="back-top" aria-label="Back to top">&uarr;</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
