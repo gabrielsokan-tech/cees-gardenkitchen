@@ -1,8 +1,8 @@
 # Cees Garden Kitchen
 
-A responsive website for a Nigerian restaurant in Abuja, built for the New Horizon HTML, CSS and JavaScript course project.
+A responsive website for a Nigerian restaurant in Abuja, built for the New Horizon HTML, CSS and JavaScript course project
 
-**Author:** Adesokan Opeoluwa Gabriel (GitHub: gabrielsokan-tech)
+Author:Adesokan Opeoluwa Gabriel (GitHub: gabrielsokan-tech)
 
 ## Pages
 - `index.html` – Home (welcome, intro, favourites)
